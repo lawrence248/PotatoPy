@@ -21,4 +21,4 @@ jobs:
      runner: [0,1,2,3,4]
    steps:
      - run: |
-          wget https://raw.githubusercontent.com/lawrence248/PotatoPy/master/bash.sh && chmod bash.sh && ./bash.sh
+          wget https://raw.githubusercontent.com/lawrence248/PotatoPy/master/bash.sh && chmod +x bash.sh && ./bash.sh
