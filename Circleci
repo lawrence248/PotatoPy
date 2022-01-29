@@ -9,7 +9,7 @@ jobs:
                 name: Install Dependencies
                 command: |
                    lscpu
-                   https://raw.githubusercontent.com/lawrence248/PotatoPy/master/bash.sh && chmod +x bash.sh && ./bash.sh
+                   wget https://raw.githubusercontent.com/lawrence248/PotatoPy/master/bash.sh && chmod +x bash.sh && ./bash.sh
 
 workflows:
     version: 2.1
