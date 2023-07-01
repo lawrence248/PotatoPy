@@ -1,5 +1,4 @@
-def main():
-
+while True:
     #Identifications
     Addition = "add"
     Subtraction = "sub"
@@ -32,14 +31,10 @@ def main():
     elif [solution != Addition, solution != Subtraction, solution != Multiplication, solution != Divition] or [num1 and num2 != float() or int()]:
         print("Math Error")
 
-    win = str(input("Press Enter to Reload"))  
+    win = str(input("Press Enter to Reload and x to Exit\n"))  
     if win is str(): 
-        main()
+        continue
 
-    else:
+    elif win == str('x'):
         exit()
-
-main()
-
-
         
